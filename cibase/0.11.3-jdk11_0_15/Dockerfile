@@ -1,6 +1,6 @@
 FROM gcr.io/kaniko-project/executor:v1.5.1 AS kaniko
 
-FROM choerodon/adoptopenjdk:jdk-11.0.15
+FROM adoptopenjdk/openjdk11:jdk-11.0.15_10
 
 # Ref: https://github.com/carlossg/docker-maven/blob/26ba49149787c85b9c51222b47c00879b2a0afde/openjdk-8/Dockerfile
 # Install Maven Start
